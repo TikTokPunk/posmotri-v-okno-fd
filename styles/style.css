@@ -252,6 +252,7 @@ li.content__list-item > a.content__card-link {
   color: #fff;
   flex-grow: 1;
   min-width: 0;
+  display: block;
 }
 
 .content__video-card {
@@ -304,9 +305,7 @@ li.content__list-item > a.content__card-link:hover {
   text-decoration: underline;
 }
 
-.content__card-link:active,
-.content__card-link_current:active,
-.content__video-card:active {
+.content__card-link:active {
   background-color: #545050;
 }
 
